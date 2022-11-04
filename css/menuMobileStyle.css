@@ -1,0 +1,46 @@
+:root{
+    --white: #fff;
+    --black: #000;
+    --main-color:#f6bbcf;
+    --second-color:#da6890;
+    --acento:#fbf4b9;
+    --letter:#333;
+    --sm:14px;
+    --md:16px;
+    --lg:18px;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mobile-menu{
+    padding: 24px;
+}
+.mobile-menu a{
+    text-decoration: none;
+    color: var(--title);
+    font-weight: bold;
+  /*   margin-bottom: 24px; */
+}
+.mobile-menu ul{
+    margin: 24px 0 0;
+    list-style: none;
+}
+.mobile-menu ul:nth-child(1){
+border-bottom: 1px solid var(--main-color);
+}
+.mobile-menu ul li{
+    margin-bottom: 24px; 
+}
+.mobile-menu .email{
+    font-size: 12px;
+    font-weight: 300;
+}
+.mobile-menu .sign-out{
+    font-size: var(--sm);
+    color: var(--main-color);
+}
